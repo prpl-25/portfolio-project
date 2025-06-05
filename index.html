@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Sindhu Vadapalli Website</title>
+    <title> ⭐️ Sindhu Vadapalli ⭐️</title>
 </head>
 <body>
     <header>
-        <a href="'#" class="logo">S</a>
+        <a class="logo">Sindhu Vadapalli</a>
         <nav>
            <a href="#home" class="active"> Home</a> 
            <a href="#about"> About</a> 
@@ -21,39 +21,133 @@
             <img src="lake3.JPG" alt="">
         </div>
         <div class="home-content">
-            <h1>Hey, It's <span>Sindhu!</span></h1>
-            <h4 class="typing-text">I'm a <span id="typing"></span></h3>
+            <h1>Hey, It's Sindhu!</h1>
+            <h3 class="typing-text">I'm a <span id="typing"></span></h3>
             <p>
                 I enjoy building meaningful and impactful solutions to real-world problems and learning along the way!
             </p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/sindhuvadapalli/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/prpl-25"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:isindhu925@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="Sindhu-Vadapalli-Resume.pdf"><i class="fas fa-file-alt"></i></a>
             </div>
             <!-- <a href="#" class="btn">Hire me</a> -->
         </div>
     </section>
     <section id="about" class="about">
-        <div class="about">
-            <br></br>
-            <h1>About</h1>
-            <p>
-                Hi, I'm Sindhu, a Computer Science student at Arizona State University, currently working toward my accelerated
-                master's degree. I love solving problems, learning new things, and building tech that makes a real impact.
+        <h1>About</h1>
+        <div class="about-container">
+            <div class="skills">
+            <h2>Skills</h2>
+                <div class="skills-grid">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>C/C++</span>
+                    <span>C#</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Swift</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
 
-                I've had a chance to explore research and projects in reinforcement learning and machine learning. These along with internship, and teaching assistant experiences
-                have helped shape my passion for tech and growth.
-
-                Outside of work, I enjoy painting, hiking, photography, and taking long drives. I'm always looking for ways to grow -  whether that's through creative outlets,
-                tackling unfamiliar challenges, or stepping outside my comfort zone. I believe in continuous learning and am always open to opportunities that push me forward in my career.
-            </p>
+            <div class="about-text">
+                <h2>Hi, I'm Sindhu 👋🏼</h2>
+                <p>
+                    A Computer Science student at Arizona State University, currently working toward my accelerated
+                    master's degree. I love solving problems, learning new things, and building tech that makes a real impact.
+                    <br></br>
+                    I've had a chance to explore research and projects in reinforcement learning and machine learning. These along with internship, and teaching assistant experiences
+                    have helped shape my passion for tech and growth.
+                    <br></br>
+                    Outside of work, I enjoy painting, hiking, photography, and taking long drives. I'm always looking for ways to grow -  whether that's through creative outlets,
+                    tackling unfamiliar challenges, or stepping outside my comfort zone. I believe in continuous learning and am always open to opportunities that push me forward in my career.
+                </p>
+            </div>
         </div>
     </section>
     <section id="projects" class="projects">
         <div class="projects">
             <br></br>
             <h1>Projects</h1>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>Finding near-optimal solutions to TSP using reinforcement learning</h3>
+                    <img src="furiPoster.png" alt="" class="project-img">
+                    <p> 
+                        This project uses an auction-based path-finding heuristic within an RL framework. It is suited to TSP, 
+                        as it computes paths without enumerating all subtours. We compared it to a greedy heuristic and the optimal solution, 
+                        showing that this approach effectively generates near-optimal solutions for TSP.
+                        <br></br>
+                        Funded by FURI and NSF REU award.
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://forge.engineering.asu.edu/participant/vadapalli-sindhu/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Reflectrospect</h3>
+                    <img src="reflectrospect.png" alt="" class="project-img">
+
+                    <p>
+                        IOS App that helps you log you mood, emotions, and check history/patterns over time. Built using Swift.
+                        <br></br>
+                       Capabilities:
+                        <ul>
+                            <li>Long term storage of data using Firebase(FireStore)</li>
+                            <li>Lists past moods for easy access</li>
+                            <li>API call to retrieve articles on mental health.</li>
+                            <li>Search nearby resources using Map functionality</li>
+                            <li>Details of each mood displayed</li>
+                            
+                        </ul>
+                            
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://github.com/prpl-25/Reflectrospect"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>TechED</h3>
+                    <p>
+                        Educational web app (using C#, ASP.NET) to expose middle 
+                        school students to technology and spark interest in the field.
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://github.com/prpl-25/TechED"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>StudPals</h3>
+                    <p>
+                        Study Buddy Matching Web Application
+                        <br></br>
+                        A web application that matches students for collaborative studying, featuring a Python and Flask-based matching algorithm. 
+                        Built an interactive frontend with HTML, CSS, and Bootstrap, and showcased the project's innovative concept at the SunHacks Hackathon.
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://github.com/prpl-25/StudPals---Study-buddy-matcher"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <img src="portfolio.png" alt="" class="project-img">
+                    <p>
+                        A interactive website built using HTML, CSS to showcase my projects and experiences.
+                    </p>
+                    <div class="project-icons">
+                        <a href="https://github.com/prpl-25/StudPals---Study-buddy-matcher"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <footer class="footer">
+    <p>&copy; 2025 Sindhu Vadapalli. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
