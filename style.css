@@ -169,7 +169,7 @@ span {
 /* Social Icons */
 .social-icons a,
 .project-icons a {
-    display: inline-flex;
+    display:inline-flex;
     justify-content: center;
     align-items: center;
     width: 4rem;
@@ -360,7 +360,7 @@ span {
 
     .project-grid{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 4rem;
         justify-items: center;
         justify-content: center;
