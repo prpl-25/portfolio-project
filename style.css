@@ -361,11 +361,11 @@ span {
         .project-grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 2rem;
+        gap: 4rem;
         justify-items: center;
         justify-content: center;
     }
-/* Placeholder cards for Projects */
+    /* Placeholder cards for Projects */
     .card {
         width: 100%;
         background-color: #161616;
