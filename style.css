@@ -358,13 +358,30 @@ span {
         margin-top: 4rem;
     }
 
-        .project-grid{
+    .project-grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 4rem;
         justify-items: center;
         justify-content: center;
     }
+
+    .social-icons a,
+    .project-icons a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 1rem;
+        height: 1rem;
+        background-color: transparent;
+        border: 0.2rem solid #7cc2f1;
+        font-size: 2rem;
+        border-radius: 50%;
+        margin: 3rem 1.5rem 3rem 0;
+        color: #7cc2f1;
+        transition: 0.3s ease;
+    }
+
     /* Placeholder cards for Projects */
     .card {
         width: 100%;
