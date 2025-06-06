@@ -30,13 +30,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 1rem 5%;
     filter: drop-shadow(10px);
     background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 43rem;
     z-index: 100;
 }
 
@@ -77,7 +76,7 @@ section {
 section h1 {
     font-size: 4rem;
     color: #7cc2f1;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -273,7 +272,6 @@ span {
     text-align: left;
 }
 
-
 .skills {
     flex: 1;
     min-width: 300px;
@@ -367,7 +365,7 @@ span {
         justify-content: center;
     }
 /* Placeholder cards for Projects */
-.card {
+    .card {
         width: 100%;
         aspect-ratio: 1/1;
         background-color: #161616;
@@ -381,6 +379,46 @@ span {
         font-size: 2.2rem;
         margin-bottom: 1rem;
         color: #7cc2f1;
+    }
+
+    /* Header */
+    header {
+        /* margin-top: 30px; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        filter: drop-shadow(10px);
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 43rem;
+        z-index: 100;
+    }   
+
+        .home {
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+        padding: 6rem 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
     }
 
 }
