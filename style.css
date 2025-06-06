@@ -371,13 +371,13 @@ span {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 1rem;
-        height: 1rem;
+        width: 4rem;
+        height: 4rem;
         background-color: transparent;
         border: 0.2rem solid #7cc2f1;
         font-size: 2rem;
         border-radius: 50%;
-        margin: 3rem 1.5rem 3rem 0;
+        margin: 0rem 1.5rem 3rem 0;
         color: #7cc2f1;
         transition: 0.3s ease;
     }
@@ -385,7 +385,6 @@ span {
     /* Placeholder cards for Projects */
     .card {
         width: 100%;
-        aspect-ratio: 1/1;
         background-color: #161616;
         padding: 2rem;
         border-radius: 1rem;
@@ -416,7 +415,7 @@ span {
         z-index: 100;
     }   
 
-    .home {
+        .home {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
