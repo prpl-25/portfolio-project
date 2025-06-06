@@ -360,8 +360,8 @@ span {
 
         .project-grid{
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 4rem;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
         justify-items: center;
         justify-content: center;
     }
