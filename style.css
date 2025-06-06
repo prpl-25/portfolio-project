@@ -21,6 +21,7 @@ body {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -367,7 +368,6 @@ span {
 /* Placeholder cards for Projects */
     .card {
         width: 100%;
-        max-width: 450px;
         background-color: #161616;
         padding: 2rem;
         border-radius: 1rem;
