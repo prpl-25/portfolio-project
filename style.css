@@ -26,7 +26,6 @@ body {
 
 /* Header */
 header {
-    /* margin-top: 30px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -307,7 +306,7 @@ span {
     width: 100%;
     text-align: center;
     padding: 2rem 0;
-    background-color: #0e0e0e; /* darker than body, or use same color */
+    background-color: #0e0e0e; 
     color: #7cc2f1;
     font-size: 1.4rem;
     margin-top: 4rem;
@@ -382,7 +381,7 @@ span {
         transition: 0.3s ease;
     }
 
-    /* Placeholder cards for Projects */
+    /* Placeholder for Projects */
     .card {
         width: 100%;
         background-color: #161616;
